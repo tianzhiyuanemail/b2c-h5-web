@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: b2c-h5-web
+server:
+  port: 11100
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://106.14.177.29:8761/eureka/
